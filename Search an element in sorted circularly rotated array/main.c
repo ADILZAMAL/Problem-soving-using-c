@@ -53,7 +53,10 @@ int main()
    int key=3;
    int indexOfKey;
    indexOfKey=search(array,key,8);
-   printf("%d",indexOfKey);
+    if(indexOfKey==-1)
+        printf("Entered Number is not present");
+    else 
+   printf("Number is present at the index=%d",indexOfKey);
 
 
 }
