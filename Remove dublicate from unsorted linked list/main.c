@@ -16,7 +16,7 @@
         temp->next=NULL;
         if(headNode==NULL){
             headNode=temp;
-            return ;
+            return 0 ;
         }
         struct Node *temp1=headNode;
         while(temp1->next!=NULL)

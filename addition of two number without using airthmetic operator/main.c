@@ -1,5 +1,5 @@
 // Logic is half adder logic
-//sum=a xor b
+//sum=a^b
 //carry=a&b
 
 #include <stdio.h>
